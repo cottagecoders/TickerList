@@ -19,8 +19,12 @@ TickerList is a Java application that fetches the list of S&P 500 companies from
 ## Building the Project
 
 To build the executable "fat" JAR, run the following command in the root directory:
+```
+mvn clean package
+```
 
-
+## Set the destination
+Set the environment variable pointing to the output file.
 ```
 export TICKER_LIST=/path/to/your/output_file.txt
 ```
